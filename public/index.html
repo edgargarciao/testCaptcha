@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat OPEN</title>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+  <ul class="pages">
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Datos Iniciales</h3>
+        <script text="javascript">        
+          sessionStorage.setItem('token', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiY2E5YmY1OTUtNDQyYi00M2FlLTljNDctOGEwZDhjMjUyYjg2IiwidXNlcmlkIjoiMTA3In0.MTMpYzr8Tp3rytPhLk9B_7Mcw7bynXC7vxj_SWL2cyc');
+        </script>
+
+		<form action="chat.html" method="get">
+			Usuario: <input name="usernameInput" type="text" maxlength="14" />
+      Orden: <input name="orderInput" type="text" maxlength="14" />
+      <div class="g-recaptcha" data-sitekey="6LcKdkwUAAAAACxGV21cyTpesrwpKY0MDGY20BBf"></div>
+
+			<input type="submit" value="Aceptar">
+    </form>
+    
+      </div>
+    </li>
+  </ul>
+</body>
+<!-- End of Rocket.Chat Livechat Script -->
+</html>

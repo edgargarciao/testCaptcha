@@ -1,0 +1,20 @@
+{
+  "name": "socket-chatServer",
+  "version": "0.0.1",
+  "description": "chat server",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jsonwebtoken": "^8.2.0",
+    "pm2": "^2.9.3",
+    "redis": "^2.8.0",
+    "request": "^2.83.0",
+    "run-script": "^0.1.1",
+    "socket.io": "^2.0.4",
+    "socket.io-redis": "^5.2.0",
+    "sync-request": "^6.0.0"
+  },
+"scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

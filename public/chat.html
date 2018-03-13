@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Chat IO</title>
+	</head>
+	<body>
+			<div id="container">
+				<ul id="messages"></ul>
+			</div>
+			<div id="chat">
+				<form action="">
+				  <input type="inputText" id="m" autocomplete="off" /><button type="inputButton">Enviar</button>
+				</form>
+			</div>
+			<div id="files">
+				<form action="">
+				  <input type="file" name="file" id="file" class="inputfile"/>
+				  <label for="file">Seleccione archivo</label>
+				  <button type="button" id="Cerrar" name="Cerrar">Eliminar todo</button>
+				</form>
+			</div>
+
+		<link rel="stylesheet" href="fonts.css">
+		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/logic.js"></script>
+	</body>
+</html>

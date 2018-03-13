@@ -1,0 +1,94 @@
+*{ 
+	margin: 0; padding: 0; box-sizing: border-box; 	
+}
+#container
+{
+	width: 70%; 
+	height: 96%;
+    overflow: scroll;
+	overflow-x: hidden;
+	position: fixed; 
+	border-right: 5px solid;
+}
+
+#chat 
+{
+	float: left;
+	width: 70%;
+}
+
+#chat body 
+{ 
+	font: 13px Helvetica, Arial; 
+}
+
+#chat form 
+{ 
+	background: #000; 
+	padding: 3px; 
+	position: fixed; 
+	bottom: 0;  
+	width: 70%;
+}
+
+#chat input[type=inputText]
+{ 
+	border: 0; padding: 10px; width: 90%; margin-right: .5%; 
+}
+
+#chat button[type=inputButton]
+{ 
+	width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; 
+}	
+
+#messages 
+{ 
+	list-style-type: none;
+	padding: 0;
+	background: #ecebbd;
+}
+
+#messages li 
+{ 
+	padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd) 
+{ 
+	background: #eee; 
+}
+
+#files 
+{
+	width: 30%;
+	float: right;
+	bottom: 0;  
+}
+
+#files form 
+{ 
+	background: #000; 
+	padding: 3px; 
+	position: fixed; 
+	bottom: 0;  
+	width: 30%;
+}
+
+#files .inputfile {
+	width: 20%;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#files .inputfile + label {
+	background: rgb(130, 224, 255); border: none; padding: 10px; font: 13px Helvetica, Arial; 
+}
+
+#files button[type=inputButton]
+{ 
+	width: 25%; background: rgb(130, 224, 255); border: none; padding: 10px; 
+}	
+
